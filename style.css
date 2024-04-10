@@ -1,0 +1,49 @@
+.btn-offer {
+  border-radius: 100px;
+}
+
+.btn-nav {
+  font-size: 25px;
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+}
+
+.btn-nav-active {
+  font-weight: bold;
+  font-size: 25px;
+  background-color: greenyellow;
+  color: #fff;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+}
+
+.pizza-preview,
+.pasta-preview {
+  border-radius: 150px;
+  width: 100px;
+  height: 100px;
+}
+
+.sidebar {
+  background-color: whitesmoke;
+}
+
+.content {
+  /* Add your content styles here */
+}
+
+.main {
+  padding-left: 0px;
+}
+
+@media (max-width: 767px) {
+  .sidebar {
+    background-color: transparent; /* Remove background color on mobile */
+  }
+}
